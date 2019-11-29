@@ -5,7 +5,7 @@
 isle_items = {"banana":1, "apple":1,"pizza":2,"peas":2,"rice":3}
 shopping_list = ["banana", "pizza", "peas", "apple", "rice"]
 
-#print("Isle 1 \n-----")
+#print("Isle 1 \n-----") #This works but how can we optimize it?
 #for i in shopping_list:
 #    if isle_items[i] == 1:
 #        print(i)
