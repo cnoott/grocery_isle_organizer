@@ -1,9 +1,8 @@
 #Created by Liam Amadio
 #November 28, 2019
 #This program takes a shopping list as input and sorts the items based on what isle they are in
-
-isle_items = {"banana":1, "apple":1,"pizza":2,"peas":2,"rice":3}
-shopping_list = ["banana", "pizza", "peas", "apple", "rice"]
+from isle_items import isle_items
+shopping_list = ["beer", "club soda", "bread", "rice", "vegetables", "pickles", "honey"]
 
 x = 1
 for j in range(len(shopping_list)):
