@@ -5,25 +5,13 @@
 isle_items = {"banana":1, "apple":1,"pizza":2,"peas":2,"rice":3}
 shopping_list = ["banana", "pizza", "peas", "apple", "rice"]
 
-#print("Isle 1 \n-----") #This works but how can we optimize it?
-#for i in shopping_list:
-#    if isle_items[i] == 1:
-#        print(i)
-#print("Isle 2 \n-----")
-#for i in shopping_list:
-#    if isle_items[i] == 2:
-#        print(i)
-#print("Isle 3 \n-----")
-#for i in shopping_list:
-#    if isle_items[i] == 3:
-#        print(i)
-
-
 x = 1
-for i in range(len(shopping_list)):
-    print("Isle",i + 1)
+for j in range(len(shopping_list)):
+    for i in shopping_list:
+        if isle_items[i] == x:
+            print("Isle", x,"\n-----")
+            break
     for i in shopping_list:
         if isle_items[i] == x:
             print(i)
-        x = x + 1
-
+    x = x + 1
