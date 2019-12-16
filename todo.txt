@@ -1,3 +1,3 @@
 To-do list
 ---------
-1. Start making dictionary of all heb items. Maybe go to heb and take pictures of all the isle labels.
+1. Make a function in which it checks if the item within the item list loop is in an isle.
